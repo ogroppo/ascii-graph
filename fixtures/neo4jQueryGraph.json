@@ -1,0 +1,223 @@
+{
+	"root": {
+		"node":{
+			"id": 0,
+			"name": "root"
+		}
+	},
+	"children": [
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"start": 0
+			},
+			"node": {
+				"id": 11,
+				"name": "giselina"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"start": 0
+			},
+			"node": {
+				"id": 12,
+				"name": "orlandinodsjnfaifnireubfoiqerub"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"start": 0
+			},
+			"node": {
+				"id": 13,
+				"name": "child13"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"start": 0
+			},
+			"node": {
+				"id": 14,
+				"name": "child14"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"start": 12
+			},
+			"node": {
+				"id": 21,
+				"name": "child21"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"start": 12
+			},
+			"node": {
+				"id": 8,
+				"name": "child22"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"start": 12
+			},
+			"node": {
+				"id": 9,
+				"name": "child23"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"start": 12
+			},
+			"node": {
+				"id": 10,
+				"name": "child24"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"start": 12
+			},
+			"node": {
+				"id": 25,
+				"name": "child25"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 3,
+			"rel": {
+				"start": 21
+			},
+			"node": {
+				"id": 31,
+				"name": "child31"
+			}
+		},
+		{
+			"skip": 1,
+			"level": 3,
+			"rel": {
+				"start": 21
+			},
+			"node": {
+				"id": 32,
+				"name": "child32"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 3,
+			"rel": {
+				"start": 25
+			},
+			"node": {
+				"id": 33,
+				"name": "child33"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 3,
+			"rel": {
+				"start": 25
+			},
+			"node": {
+				"id": 34,
+				"name": "child34",
+				"labels": ["labbro", "signore"]
+			}
+		}
+	],
+	"parents": [
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"end": 0
+			},
+			"node": {
+				"id": 11,
+				"name": "parent11"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"end": 0
+			},
+			"node": {
+				"id": 12,
+				"name": "parent12"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 1,
+			"rel": {
+				"end": 0
+			},
+			"node": {
+				"id": 13,
+				"name": "parent13"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"end": 13
+			},
+			"node": {
+				"id": 21,
+				"name": "parent21"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 2,
+			"rel": {
+				"end": 13,
+				"type": "cane"
+			},
+			"node": {
+				"id": 22,
+				"name": "parent22"
+			}
+		},
+		{
+			"skip": 0,
+			"level": 3,
+			"rel": {
+				"end": 22
+			},
+			"node": {
+				"id": 31,
+				"name": "parent31"
+			}
+		}
+	]
+}
