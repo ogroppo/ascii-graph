@@ -2,7 +2,8 @@
 	"root": {
 		"node":{
 			"id": 0,
-			"name": "root"
+			"name": "Napoleon",
+			"labels": ["General"]
 		}
 	},
 	"children": [
@@ -10,22 +11,27 @@
 			"skip": 0,
 			"level": 1,
 			"rel": {
-				"start": 0
+				"start": 0,
+				"startLabel": "General",
+				"endLabel": "Wife"
 			},
 			"node": {
 				"id": 11,
-				"name": "giselina"
+				"name": "Giuseppina",
+				"labels": ["Wife", "Housewife"]
 			}
 		},
 		{
 			"skip": 0,
 			"level": 1,
 			"rel": {
-				"start": 0
+				"start": 0,
+				"name": "lost"
 			},
 			"node": {
 				"id": 12,
-				"name": "orlandinodsjnfaifnireubfoiqerub"
+				"name": "Waterloo Battle",
+				"labels": ["Battle"]
 			}
 		},
 		{
@@ -156,11 +162,14 @@
 			"skip": 0,
 			"level": 1,
 			"rel": {
-				"end": 0
+				"end": 0,
+				"endLabel": "General",
+				"startLabel": "Event"
 			},
 			"node": {
 				"id": 11,
-				"name": "parent11"
+				"name": "French Revolution",
+				"labels": ["Event"]
 			}
 		},
 		{

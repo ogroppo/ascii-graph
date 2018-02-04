@@ -1,6 +1,7 @@
 var mapChildren = require('./lib/mapChildren');
 var mapParents = require('./lib/mapParents');
 var addToMap = require('./lib/addToMap');
+var calcDisplayNode = require('./lib/calcDisplayNode');
 var mapGraphToRowGraph = require('./lib/mapGraphToRowGraph');
 
 function asciiGraph(levelGraph){
@@ -16,7 +17,7 @@ module.exports = asciiGraph;
 function levelGraphToMapGraph(levelGraph){
 
 	let root = levelGraph.root;
-	root.display = root.node.name; // + labels....
+	root.display = calcDisplayNode(root.node);
 	root.row = 0;
 	root.left = 0;
 	let map = {
