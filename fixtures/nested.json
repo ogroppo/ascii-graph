@@ -1,0 +1,108 @@
+{
+	"node": {
+		"name": "Solar System",
+		"labels": ["Star System"]
+	},
+  "children": [
+    {
+      "rel": {
+        "name": "has"
+      },
+      "node": {
+        "name": "Jupiter",
+        "labels": ["Planet"]
+      },
+      "children": [
+        {
+          "rel": {
+            "name": "orbits"
+          },
+          "node": {
+            "name": "Sun",
+            "labels": ["Star"]
+          }
+        }
+      ]
+    },
+    {
+      "rel": {
+        "name": "has"
+      },
+      "node": {
+        "name": "Mars",
+        "labels": ["Planet"]
+      },
+      "children": [
+        {
+          "rel": {
+            "name": "orbits"
+          },
+          "node": {
+            "name": "Sun",
+            "labels": ["Star"]
+          },
+          "children": [
+            {
+              "node": {
+                "name": "pau"
+              }
+            },
+            {
+              "node": {
+                "name": "pauk"
+              }
+            },
+            {
+              "node": {
+                "name": "blu"
+              }
+            },
+            {
+              "node": {
+                "name": "blau"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parents": [
+    {
+      "rel": {
+        "name": "includes"
+      },
+      "node": {
+        "name": "Milky Way",
+        "labels": ["Galaxy"]
+      },
+      "parents": [
+        {
+          "node": {
+            "name": "Local Cluster"
+          }
+        },
+        {
+          "node": {
+            "name": "Fuck knows"
+          }
+        },
+        {
+          "node": {
+            "name": "Fuck knows!"
+          }
+        }
+      ]
+    },
+    {
+      "node": {
+        "name": "sukamello"
+      }
+    },
+    {
+      "node": {
+        "name": "buddiello"
+      }
+    }
+  ]
+}
