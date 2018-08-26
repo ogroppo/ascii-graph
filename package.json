@@ -1,7 +1,7 @@
 {
-  "name": "ascii-tree",
+  "name": "ascii-dendrogram",
   "version": "0.1.1",
-  "description": "Plot a tree graph with ascii characters",
+  "description": "Plot a dendrogram with ascii characters",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

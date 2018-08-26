@@ -20,7 +20,27 @@
           "node": {
             "name": "Sun",
             "labels": ["Star"]
-          }
+          },
+          "children": [
+            {
+              "rel": {
+                "name": "orbits"
+              },
+              "node": {
+                "name": "Andromeda",
+                "labels": ["Galaxy"]
+              }
+            },
+            {
+              "rel": {
+                "name": "orbits"
+              },
+              "node": {
+                "name": "Andromerda",
+                "labels": ["Galaxy"]
+              }
+            }
+          ]
         }
       ]
     },
@@ -91,13 +111,58 @@
           "node": {
             "name": "Fuck knows!"
           }
+        },
+        {
+          "node": {
+            "value": 33
+          }
+        },
+        {
+          "node": {
+            "value": 33
+          }
+        },
+        {
+          "node": {
+            "value": 33
+          }
+        },
+        {
+          "node": {
+            "value": 33
+          }
+        },
+        {
+          "node": {
+            "value": 33
+          }
         }
       ]
     },
     {
       "node": {
         "name": "sukamello"
-      }
+      },
+      "parents": [
+        {
+          "rel": {
+            "name": "bim"
+          },
+          "node": {
+            "name": "bam",
+            "labels": ["_"]
+          }
+        },
+        {
+          "rel": {
+            "name": "bim"
+          },
+          "node": {
+            "name": "bam",
+            "labels": ["_"]
+          }
+        }
+      ]
     },
     {
       "node": {
