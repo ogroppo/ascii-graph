@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.2",
-    "isnot": "^0.8.1"
+    "isnot": "^0.8.1",
+    "moment": "^2.22.2"
   },
   "devDependencies": {
     "ava": "^0.25.0"
